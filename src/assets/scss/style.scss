@@ -1,0 +1,19 @@
+// inherit bootstrap
+$font-size-base: 0.9rem; 
+$input-btn-padding-y:       .4rem !default;
+$input-btn-padding-x:       .6rem !default;
+
+$spacer: 0.3rem !default;
+
+// table 
+.table{
+
+  td {
+    vertical-align: middle !important;
+  }
+}
+
+// import bootstrap stuff
+$fa-font-path:"../node_modules/font-awesome/fonts";
+@import "../node_modules/font-awesome/scss/font-awesome.scss";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
