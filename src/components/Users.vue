@@ -9,7 +9,7 @@
       <tbody>
         <tr v-for="user in users">
           <td>{{ user.nickname }}</td>
-          <td>{{ getSexDisplay(user.nickname) }}</td>
+          <td>{{ getSexDisplay(user.sex) }}</td>
           <td>{{ user.age }}</td>
         </tr>
       </tbody>
